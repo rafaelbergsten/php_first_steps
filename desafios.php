@@ -5,6 +5,6 @@
 
 for ($contador = 0; $contador <=100; $contador ++){
     if($contador%2!=0){
-        echo "o numero e impar $contador";
+        echo "o numero e impar $contador".PHP_EOL;
     }
 }
