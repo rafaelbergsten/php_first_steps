@@ -5,6 +5,10 @@ $nome = "Rafael";
 
 echo "Você só pode entrar se tiver mais de 18 anos\n";
 
+$mensagem = $idade < 18 ? 'Você é menor de idade' : 'Você é maior de idade';
+
+echo $mensagem;
+
 if ($idade >= 18) {
     echo "Você tem $idade anos. Pode entrar";
 } else {
