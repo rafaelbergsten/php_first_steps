@@ -24,3 +24,22 @@ $contasCorrentes = [
 foreach ($contasCorrentes as $cpf => $conta) {
     echo $cpf . PHP_EOL;
 }
+
+$novasContasCorrentes = [
+    1234567890 => [
+        'titular' => 'Rafael',
+        'saldo' => 12000
+    ],
+    1234567891 => [
+        'titular' => 'Heidi',
+        'saldo' => 12010
+    ],
+    1234567892 => [
+        'titular' => 'Daniel',
+        'saldo' => 12020
+    ]
+];
+
+foreach ($novasContasCorrentes as $cpf => $conta) {
+    echo $conta['titular'] . PHP_EOL;
+}
